@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>YUNJI PARK</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class = "mainbox">  
+    <div>
+        <img class="profile1" src="profile1.jpg" width="300" height="370">
+        <h1>YUNJI PARK</h1>   
+        <p class ="title">Software Engineering 32207361</p>
+        <br><br><br><br>
+    </div>
+    <section>
+        <h2>About Me</h2>
+        <div>
+            <p class="subtext">소프트웨어학과 32207361 박윤지입니다.<br>
+            아직 많이 부족한 실력이지만 차근차근 배워나가겠습니다.</p>
+        </div>    
+    </section>
+    <br>
+      
+    <section>
+        <h2></h2>
+        <div class="float-wrap">
+            <p class="text">Interest</p>
+            <p class ="subtext">Artificial Intelligence</p>
+            <p class="righttext">Deep learning & Machine Learning</p>
+        </div>
+
+        <div class="float-wrap">
+            <p class="text">Taste In Music</p>
+            <p class ="subtext">Emo Rap</p>
+            <p class="righttext"></p>
+        </div>
+      
+        <div class="float-wrap">
+            <p class="text">Hobby</p>
+            <img class="hobby1" src="hobby1.jpeg" width="200" height="270">
+            <img class="hobby2" src="hobby2.jpeg" width="200" height="270">
+            <p class ="subtext">Traveling</p>
+            <video autoplay controls loop muted width="200" height="270">
+                <source src="travel.mov" type="video/mp4">
+    
+            </video>
+            <p class="righttext"></p>
+        </div>
+
+        <div class="float-wrap">
+            <p class="text">Contact</p>
+            <p class ="subtext">Eail : pyjione@naver.com</p>
+            <p class="righttext"></p>
+        </div>
+      
+    </section>
+    <br>
+
+    <section>
+        <h2>My SNS</h2>
+        <div class="sns">
+            <p class="text">you can meet me !</p>
+            <a href="https://github.com/pyjione"><img class="sns-img" src="github.png"></a>
+            <a href="https://blog.naver.com/pyjione"><img class="sns-img" src="blog.png"></a>
+        </div>
+    </section>
+    <br>
+  </div>
+</body>
+
+</html>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    min-width: fit-content;
+}
+
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    border: 1px soild black;
+    box-shadow: 0 1px 20px 0 reba(0, 0, 0, 0.2);
+  }
+  
+  
+  section {
+    margin-bottom:24px;
+  }
+  
+  h1{
+    margin:0px;
+    padding:0px;
+    font-size:36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+    text-align: right;
+  }
+
+  h2 {
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    color:#2aad3c;
+    font-weight: 400;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #3d3c3c;
+    padding-bottom: 5px;
+ }
+
+
+
+  .frog{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+  }
+
+  .title{
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight: bold;
+    float: right;
+    line-height: 16px;
+  }
+  
+  .sns{
+    text-align: left;
+  }
+
+  .sns-img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .float-wrap {
+    overflow: hidden;
+    margin-bottom: 4px;
+    }
+
+  .text{
+    line-height: 16px;
+    font-size: 20px;
+    font-weight:bold;
+    color:black;
+    margin-bottom:6px;
+  }
+  
+  .subtext{
+    font-size: 17px;
+    color:#3a3a3a;
+    padding-left:16px;
+    margin-bottom:8px;
+  }
+
+  .righttext{
+    font-size:15px;
+    font-weight: 300;
+    color: #282828;
+    float: right;
+  }
